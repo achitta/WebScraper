@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="test.js"></script>
+        <link rel="stylesheet" href="main.css">
+        <title>Aditya's Weather App</title>
+    </head>
+    <body>
+        <header>
+            <div>
+                <p id = "riddle">Hi</p> 
+            </div>
+                <script>
+                    var x = document.getElementById("riddle");
+                    x.innerHTML = "HEHEHE"
+                    fetch("riddle.json")
+                        .then(response => response.json())
+                        .then(json => console.log(json));
+});
+                </script>
+    </body>
+</html>
